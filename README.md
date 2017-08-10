@@ -20,9 +20,11 @@ All contribution and pull requests are welcome.
 - First step is to identify the floating point variables that can be converted to half precision: 
 `./detect_half2_vars test/vectorAdd.cu`
 - After completing this step, you should have `half2VarsList.txt` file generated with the content is the list of function and floating point variables in them. 
-- Choose your configuration from `rewrite.conf`, use *half2* data type `simd_mode=true`, *half* data type `simd_mode=false`, use operator overload header to make your code readible `operator_overload=true`.
-- Next step is to run the conversion tool, if you want to use *half* data type with limited performance, use the file compiled from `half_rewrite.cpp`.
-to generate the version using *half2* datatype: `./run_rewrite.sh test/vectorAdd.cu`
+- Choose your configuration from `rewrite.conf`:
+  * use *half2* data type `simd_mode=true`
+  * use *half* data type `simd_mode=false`
+  * use operator overload header to make your code readible `operator_overload=true`
+- Next step is to run the conversion tool, to convert the sample in `test/vectorAdd.cu` use: `./run_rewrite.sh test/vectorAdd.cu`
 
 ### Todo
 

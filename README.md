@@ -10,20 +10,22 @@ All contribution and pull requests are welcome.
 - The tutorial on how to install Clang and setup your system can be found here [https://clang.llvm.org/docs/LibASTMatchersTutorial.html]
 - Linux & Unix OS for the bash scripts to run, otherwise you have to write your own Windows `.bat` scripts  to invoke clang plugins with appropriate flags.
 ### Building the binaries
-- Changing the environment variables to reflect clang path in your system
-- There are three cpp files to be built [detect_half2_vars.cpp, half2_rewrite.cpp, half_rewrite.cpp] , you can build them using clang or g++
-- Example using clang to build detect_half2_vars.cpp: `./build_clang.sh detect_half2_vars`
+- Changing the environment variables to reflect clang path in your system in the file `env_path.conf`
+- Update the environment variables: `source env_path.conf` 
+- There are three cpp files to be built [detect_half2_vars.cpp, half2_rewrite.cpp, half_rewrite.cpp] , you can build them using clang or g++.Using clang to build the tool is more stable but slower, while g++ can build faster but some versions may give linking/compile error. 
+- Example using clang to build detect_half2_vars.cpp, (the argument for the script is a cpp file without extension): `./build_clang.sh detect_half2_vars`
 - or you can do the same process using g++ (optional): `./build_g++.sh detect_half2_vars`
 
 ### Running the example
 - First step is to identify the floating point variables that can be converted to half precision: 
 `./detect_half2_vars test/vectorAdd.cu`
-- After completing this step, you should have `half2VarsList.txt` file generated with the content is the list of function and floating point variables in them
+- After completing this step, you should have `half2VarsList.txt` file generated with the content is the list of function and floating point variables in them. 
+- Choose your configuration from `rewrite.conf`, use *half2* data type `simd_mode=true`, *half* data type `simd_mode=false`, use operator overload header to make your code readible `operator_overload=true`.
 - Next step is to run the conversion tool, if you want to use *half* data type with limited performance, use the file compiled from `half_rewrite.cpp`.
 to generate the version using *half2* datatype: `./run_rewrite.sh test/vectorAdd.cu`
 
 ### Todo
-Update sh files with environment variables
+
 
 
 

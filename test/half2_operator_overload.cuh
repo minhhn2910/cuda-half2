@@ -1,6 +1,7 @@
 #include <cuda_fp16.h>
 #define __h2div h2div
 #define __h2exp h2exp
+// this is outdated, please see the operator overload file in benchmarks folder for a version works on cuda >9.0
 inline __device__ inline __half2 h2absf(__half2 d)
 {
 	(*((unsigned int*)(&d))) &= 0x7fff7fff; //set 2 sign bits to 0

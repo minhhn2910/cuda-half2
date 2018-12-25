@@ -6,5 +6,7 @@ half2_operator_overload.hpp and half_operator_overload.hpp, need to comment out 
 Disclaimer : I don't hold any copyright for the code in the benchmarks, if any request from the authors to remove them, they will be removed from this opensource repo.
 
 This folder contains two subsets of benchmarks:
+
 rodinia_3.1/cuda
+
 NVIDA_example/half2_convert

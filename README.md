@@ -27,7 +27,7 @@ All contribution and pull requests are welcome.
 - Next step is to run the conversion tool, to convert the sample in `test/vectorAdd.cu` use: `./run_rewrite.sh test/vectorAdd.cu`
 
 ### Todo
-
+Clang 7.0
 
 
 

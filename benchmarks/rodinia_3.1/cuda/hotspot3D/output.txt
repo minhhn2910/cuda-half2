@@ -1,0 +1,1078 @@
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SW_1729687 EF_CUDA_SM60 EF_CUDA_PTX_SM(EF_CUDA_SM60)"
+
+
+//--------------------- .nv.info                  --------------------------
+	.section	.nv.info,"",@"SHT_CUDA_INFO"
+	.align	4
+
+
+	//----- nvinfo : EIATTR_MAX_STACK_SIZE
+	.align		4
+        /*0000*/ 	.byte	0x04, 0x23
+        /*0002*/ 	.short	(.L_6 - .L_5)
+	.align		4
+.L_5:
+        /*0004*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0008*/ 	.word	0x00000000
+
+
+	//----- nvinfo : EIATTR_MIN_STACK_SIZE
+	.align		4
+.L_6:
+        /*000c*/ 	.byte	0x04, 0x12
+        /*000e*/ 	.short	(.L_8 - .L_7)
+	.align		4
+.L_7:
+        /*0010*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0014*/ 	.word	0x00000000
+
+
+	//----- nvinfo : EIATTR_FRAME_SIZE
+	.align		4
+.L_8:
+        /*0018*/ 	.byte	0x04, 0x11
+        /*001a*/ 	.short	(.L_10 - .L_9)
+	.align		4
+.L_9:
+        /*001c*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0020*/ 	.word	0x00000000
+.L_10:
+
+
+//--------------------- .nv.info._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.nv.info._Z11hotspotOpt1PfS_S_fiiifffffff,"",@"SHT_CUDA_INFO"
+	.align	4
+
+
+	//----- nvinfo : EIATTR_PARAM_CBANK
+	.align		4
+        /*0000*/ 	.byte	0x04, 0x0a
+        /*0002*/ 	.short	(.L_12 - .L_11)
+	.align		4
+.L_11:
+        /*0004*/ 	.word	index@(.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0008*/ 	.short	0x0140
+        /*000a*/ 	.short	0x0044
+
+
+	//----- nvinfo : EIATTR_CBANK_PARAM_SIZE
+	.align		4
+.L_12:
+        /*000c*/ 	.byte	0x03, 0x19
+        /*000e*/ 	.short	0x0044
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+        /*0010*/ 	.byte	0x04, 0x17
+        /*0012*/ 	.short	(.L_14 - .L_13)
+.L_13:
+        /*0014*/ 	.word	0x00000000
+        /*0018*/ 	.short	0x000d
+        /*001a*/ 	.short	0x0040
+        /*001c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_14:
+        /*0020*/ 	.byte	0x04, 0x17
+        /*0022*/ 	.short	(.L_16 - .L_15)
+.L_15:
+        /*0024*/ 	.word	0x00000000
+        /*0028*/ 	.short	0x000c
+        /*002a*/ 	.short	0x003c
+        /*002c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_16:
+        /*0030*/ 	.byte	0x04, 0x17
+        /*0032*/ 	.short	(.L_18 - .L_17)
+.L_17:
+        /*0034*/ 	.word	0x00000000
+        /*0038*/ 	.short	0x000b
+        /*003a*/ 	.short	0x0038
+        /*003c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_18:
+        /*0040*/ 	.byte	0x04, 0x17
+        /*0042*/ 	.short	(.L_20 - .L_19)
+.L_19:
+        /*0044*/ 	.word	0x00000000
+        /*0048*/ 	.short	0x000a
+        /*004a*/ 	.short	0x0034
+        /*004c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_20:
+        /*0050*/ 	.byte	0x04, 0x17
+        /*0052*/ 	.short	(.L_22 - .L_21)
+.L_21:
+        /*0054*/ 	.word	0x00000000
+        /*0058*/ 	.short	0x0009
+        /*005a*/ 	.short	0x0030
+        /*005c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_22:
+        /*0060*/ 	.byte	0x04, 0x17
+        /*0062*/ 	.short	(.L_24 - .L_23)
+.L_23:
+        /*0064*/ 	.word	0x00000000
+        /*0068*/ 	.short	0x0008
+        /*006a*/ 	.short	0x002c
+        /*006c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_24:
+        /*0070*/ 	.byte	0x04, 0x17
+        /*0072*/ 	.short	(.L_26 - .L_25)
+.L_25:
+        /*0074*/ 	.word	0x00000000
+        /*0078*/ 	.short	0x0007
+        /*007a*/ 	.short	0x0028
+        /*007c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_26:
+        /*0080*/ 	.byte	0x04, 0x17
+        /*0082*/ 	.short	(.L_28 - .L_27)
+.L_27:
+        /*0084*/ 	.word	0x00000000
+        /*0088*/ 	.short	0x0006
+        /*008a*/ 	.short	0x0024
+        /*008c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_28:
+        /*0090*/ 	.byte	0x04, 0x17
+        /*0092*/ 	.short	(.L_30 - .L_29)
+.L_29:
+        /*0094*/ 	.word	0x00000000
+        /*0098*/ 	.short	0x0005
+        /*009a*/ 	.short	0x0020
+        /*009c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_30:
+        /*00a0*/ 	.byte	0x04, 0x17
+        /*00a2*/ 	.short	(.L_32 - .L_31)
+.L_31:
+        /*00a4*/ 	.word	0x00000000
+        /*00a8*/ 	.short	0x0004
+        /*00aa*/ 	.short	0x001c
+        /*00ac*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_32:
+        /*00b0*/ 	.byte	0x04, 0x17
+        /*00b2*/ 	.short	(.L_34 - .L_33)
+.L_33:
+        /*00b4*/ 	.word	0x00000000
+        /*00b8*/ 	.short	0x0003
+        /*00ba*/ 	.short	0x0018
+        /*00bc*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_34:
+        /*00c0*/ 	.byte	0x04, 0x17
+        /*00c2*/ 	.short	(.L_36 - .L_35)
+.L_35:
+        /*00c4*/ 	.word	0x00000000
+        /*00c8*/ 	.short	0x0002
+        /*00ca*/ 	.short	0x0010
+        /*00cc*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_36:
+        /*00d0*/ 	.byte	0x04, 0x17
+        /*00d2*/ 	.short	(.L_38 - .L_37)
+.L_37:
+        /*00d4*/ 	.word	0x00000000
+        /*00d8*/ 	.short	0x0001
+        /*00da*/ 	.short	0x0008
+        /*00dc*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_38:
+        /*00e0*/ 	.byte	0x04, 0x17
+        /*00e2*/ 	.short	(.L_40 - .L_39)
+.L_39:
+        /*00e4*/ 	.word	0x00000000
+        /*00e8*/ 	.short	0x0000
+        /*00ea*/ 	.short	0x0000
+        /*00ec*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_MAXREG_COUNT
+	.align		4
+.L_40:
+        /*00f0*/ 	.byte	0x03, 0x1b
+        /*00f2*/ 	.short	0x00ff
+
+
+	//----- nvinfo : EIATTR_S2RCTAID_INSTR_OFFSETS
+	.align		4
+        /*00f4*/ 	.byte	0x04, 0x1d
+        /*00f6*/ 	.short	(.L_42 - .L_41)
+
+
+	//   ....[0]....
+.L_41:
+        /*00f8*/ 	.word	0x00000038
+
+
+	//   ....[1]....
+        /*00fc*/ 	.word	0x00000058
+
+
+	//----- nvinfo : EIATTR_EXIT_INSTR_OFFSETS
+	.align		4
+.L_42:
+        /*0100*/ 	.byte	0x04, 0x1c
+        /*0102*/ 	.short	(.L_44 - .L_43)
+
+
+	//   ....[0]....
+.L_43:
+        /*0104*/ 	.word	0x000009e8
+.L_44:
+
+
+//--------------------- .nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff,"a",@progbits
+	.align	4
+.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff:
+	.zero		388
+
+
+//--------------------- .text._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.text._Z11hotspotOpt1PfS_S_fiiifffffff,"ax",@progbits
+	.sectioninfo	@"SHI_REGISTERS=40"
+	.align	32
+                                                                                                                  // +----+-----+-----------+
+                                                                                                                  // |GPR |PRED |SCOREBOARD |
+                                                                                                                  // |  # |  #  |      #    |
+                                                                                                                  // +----+-----+-----------+
+        .global         _Z11hotspotOpt1PfS_S_fiiifffffff                                                          // |    |     |           |
+        .type           _Z11hotspotOpt1PfS_S_fiiifffffff,@function                                                // |    |     |           |
+        .size           _Z11hotspotOpt1PfS_S_fiiifffffff,(.L_45 - _Z11hotspotOpt1PfS_S_fiiifffffff)               // |    |     |           |
+        .other          _Z11hotspotOpt1PfS_S_fiiifffffff,@"STO_CUDA_ENTRY STV_DEFAULT"                            // |    |     |           |
+_Z11hotspotOpt1PfS_S_fiiifffffff:                                                                                 // |    |     |           |
+.text._Z11hotspotOpt1PfS_S_fiiifffffff:                                                                           // |    |     |           |
+        /*0008*/                   MOV R1, c[0x0][0x20];                                                          // |  1 |     |      1    |
+        /*0010*/                   MOV R2, c[0x0][0x164];                                                         // |  2 |     |      1    |
+        /*0018*/                   MOV R0, RZ;                                                                    // |  3 |     |      2    |
+        /*0028*/                   IADD32I R12, R2, -0x1;                                                         // |  4 |     |      3    |
+.L_3:                                                                                                             // |  3 |     |     55    |
+        /*0030*/         {         MOV R11, c[0x0][0x160];                                                        // |  5 |     |     55    |
+        /*0038*/                   S2R R13, SR_CTAID.X;        }                                                  // |  5 |     |     54    |
+        /*0048*/         {         IADD32I R21, R11, -0x1;                                                        // |  7 |     |     54    |
+        /*0050*/                   S2R R14, SR_TID.X;        }                                                    // |  7 |     |     53    |
+        /*0058*/                   S2R R9, SR_CTAID.Y;                                                            // |  8 |     |     53    |
+        /*0068*/                   S2R R10, SR_TID.Y;                                                             // |  9 |     |     53    |
+        /*0070*/                   XMAD.MRG R4, R13.reuse, c[0x0] [0x8].H1, RZ;                                   // | 10 |     |     52    |
+        /*0078*/                   XMAD R3, R13, c[0x0] [0x8], R14;                                               // | 11 |     |     52    |
+        /*0088*/                   XMAD.MRG R7, R9, c[0x0] [0xc].H1, RZ;                                          // | 12 |     |     52    |
+        /*0090*/                   XMAD R2, R9.reuse, c[0x0] [0xc], R10;                                          // | 13 |     |     51    |
+        /*0098*/                   XMAD.PSL.CBCC R6, R13.H1, R4.H1, R3;                                           // | 14 |     |     51    |
+        /*00a8*/                   MOV R4, c[0x0][0x15c];                                                         // | 13 |     |     51    |
+        /*00b0*/                   XMAD.PSL.CBCC R3, R9.H1, R7.H1, R2;                                            // | 14 |     |     51    |
+        /*00b8*/                   IADD32I R4, R4, -0x1;                                                          // | 13 |     |     51    |
+        /*00c8*/                   XMAD R2, R3, c[0x0] [0x15c], R6;                                               // | 14 |     |     51    |
+        /*00d0*/                   XMAD.MRG R5, R3.reuse, c[0x0] [0x15c].H1, RZ;                                  // | 15 |     |     51    |
+        /*00d8*/                   ICMP.EQ R15, RZ, -0x1, R6;                                                     // | 16 |     |     50    |
+        /*00e8*/                   ISETP.NE.AND P0, PT, R6, R4, PT;                                               // | 16 |  1  |     49    |
+        /*00f0*/                   XMAD.PSL.CBCC R20, R3.H1.reuse, R5.H1, R2;                                     // | 16 |  1  |     49    |
+        /*00f8*/                   ISETP.EQ.AND P1, PT, R3, R21, PT;                                              // | 14 |  2  |     49    |
+        /*0108*/                   IADD R2, R20, R15;                                                             // | 15 |  2  |     49    |
+        /*0110*/                   SEL R16, RZ, 0x1, !P0;                                                         // | 16 |  2  |     49    |
+        /*0118*/                   SHL R4, R2.reuse, 0x2;                                                         // | 17 |  1  |     48    |
+        /*0128*/                   SHR R5, R2, 0x1e;                                                              // | 18 |  1  |     48    |
+        /*0130*/                   SHL R27, R20.reuse, 0x2;                                                       // | 18 |  1  |     48    |
+        /*0138*/                   IADD R8, R20, R16;                                                             // | 19 |  1  |     48    |
+        /*0148*/                   IADD R2.CC, R4, c[0x0][0x148];                                                 // | 20 |  1  |     48    |
+        /*0150*/                   SEL R17, RZ, c[0x0][0x15c], P1;                                                // | 20 |  1  |     48    |
+        /*0158*/                   ICMP.EQ R18, RZ, c[0x0][0x15c], R3;                                            // | 21 |     |     47    |
+        /*0168*/                   SHR R28, R20.reuse, 0x1e;                                                      // | 21 |     |     47    |
+        /*0170*/                   SHL R19, R8, 0x2;                                                              // | 22 |     |     47    |
+        /*0178*/                   IADD.X R3, R5, c[0x0][0x14c];                                                  // | 23 |     |     47    |
+        /*0188*/         {         IADD R4.CC, R27, c[0x0][0x148];                                                // | 24 |     |     47    |
+        /*0190*/                   LDG.E R29, [R2];        }                                                      // | 22 |     |     47    |
+        /*0198*/                   IADD R22, R20, R17;                                                            // | 23 |     |     47    |
+        /*01a8*/                   SHR R8, R8, 0x1e;                                                              // | 23 |     |     47    |
+        /*01b0*/                   IADD.X R5, R28, c[0x0][0x14c];                                                 // | 24 |     |     47    |
+        /*01b8*/                   IADD R24.CC, R19, c[0x0][0x148];                                               // | 25 |     |     47    |
+        /*01c8*/                   SHL R26, R22.reuse, 0x2;                                                       // | 25 |     |     47    |
+        /*01d0*/                   IADD R23, R20, -R18;                                                           // | 26 |     |     47    |
+        /*01d8*/                   SHR R19, R22, 0x1e;                                                            // | 27 |     |     47    |
+        /*01e8*/                   XMAD R20, R11.reuse, c[0x0] [0x15c], R20;                                      // | 26 |     |     47    |
+        /*01f0*/         {         IADD.X R25, R8, c[0x0][0x14c]  SLOT 0;                                         // | 27 |     |     48    |
+        /*01f8*/                   LDG.E R8, [R4]  SLOT 1;        }                                               // | 25 |     |     48    |
+        /*0208*/                   IADD R2.CC, R26, c[0x0][0x148];                                                // | 26 |     |     48    |
+        /*0210*/                   XMAD.MRG R26, R11, c[0x0] [0x15c].H1, RZ;                                      // | 26 |     |     48    |
+        /*0218*/                   SHL R22, R23, 0x2;                                                             // | 27 |     |     48    |
+        /*0228*/                   IADD.X R3, R19, c[0x0][0x14c];                                                 // | 28 |     |     48    |
+        /*0230*/         {         XMAD.PSL.CBCC R19, R11.H1, R26.H1, R20  SLOT 0;                                // | 28 |     |     48    |
+        /*0238*/                   LDG.E R20, [R24]  SLOT 1;        }                                             // | 25 |     |     48    |
+        /*0248*/         {         SHR R23, R23, 0x1e;                                                            // | 26 |     |     48    |
+        /*0250*/                   LDG.E R26, [R2];        }                                                      // | 24 |     |     48    |
+        /*0258*/                   IADD R22.CC, R22, c[0x0][0x148];                                               // | 24 |     |     48    |
+        /*0268*/                   SHL R4, R19.reuse, 0x2;                                                        // | 25 |     |     48    |
+        /*0270*/                   IADD.X R23, R23, c[0x0][0x14c];                                                // | 25 |     |     48    |
+        /*0278*/                   LDG.E R22, [R22];                                                              // | 25 |     |     49    |
+        /*0288*/                   SHR R5, R19, 0x1e;                                                             // | 25 |     |     48    |
+        /*0290*/                   IADD R4.CC, R4, c[0x0][0x148];                                                 // | 24 |     |     48    |
+        /*0298*/                   IADD.X R5, R5, c[0x0][0x14c];                                                  // | 24 |     |     48    |
+        /*02a8*/         {         IADD R2.CC, R27, c[0x0][0x140];                                                // | 26 |     |     48    |
+        /*02b0*/                   LDG.E R23, [R4];        }                                                      // | 24 |     |     48    |
+        /*02b8*/                   IADD.X R3, R28, c[0x0][0x144];                                                 // | 25 |     |     48    |
+        /*02c8*/                   LDG.E R2, [R2];                                                                // | 25 |     |     48    |
+        /*02d0*/                   IADD R24, R10, c[0x0][0x160];                                                  // | 25 |     |     48    |
+        /*02d8*/                   XMAD R24, R9, c[0x0] [0xc], R24;                                               // | 25 |     |     48    |
+        /*02e8*/                   ISETP.GT.AND P0, PT, R12, 0x1, PT;                                             // | 25 |  1  |     48    |
+        /*02f0*/                   FMUL R19, R29, c[0x0][0x16c];                                                  // | 26 |  1  |     48    |
+        /*02f8*/                   FFMA R25, R8, c[0x0][0x180], R19;                                              // | 26 |  1  |     48    |
+        /*0308*/         {         XMAD.PSL.CBCC R19, R9.H1, R7.H1, R24;                                          // | 26 |  1  |     48    |
+        /*0310*/                   DEPBAR.LE SB5, 0x3;        }                                                   // | 24 |  1  |     48    |
+        /*0318*/                   FFMA R7, R20, c[0x0][0x168], R25;                                              // | 25 |  1  |     48    |
+        /*0328*/                   XMAD R6, R19, c[0x0] [0x15c], R6;                                              // | 23 |  1  |     48    |
+        /*0330*/                   XMAD.MRG R20, R19.reuse, c[0x0] [0x15c].H1, RZ;                                // | 24 |  1  |     48    |
+        /*0338*/                   FFMA R4, R26, c[0x0][0x174], R7;                                               // | 25 |  1  |     48    |
+        /*0348*/                   XMAD.PSL.CBCC R5, R19.H1, R20.H1, R6;                                          // | 24 |  1  |     48    |
+        /*0350*/         {         IADD R6.CC, R27, c[0x0][0x150];                                                // | 23 |  1  |     48    |
+        /*0358*/                   DEPBAR.LE SB5, 0x2;        }                                                   // | 22 |  1  |     48    |
+        /*0368*/                   FFMA R3, R22, c[0x0][0x170], R4;                                               // | 23 |  1  |     48    |
+        /*0370*/                   SHL R20, R5, 0x2;                                                              // | 22 |  1  |     48    |
+        /*0378*/                   IADD.X R7, R28, c[0x0][0x154];                                                 // | 23 |  1  |     48    |
+        /*0388*/                   FFMA R4, R8, c[0x0][0x17c], R3;                                                // | 23 |  1  |     48    |
+        /*0390*/                   SHR R24, R5, 0x1e;                                                             // | 23 |  1  |     48    |
+        /*0398*/         {         IADD R25.CC, R20, c[0x0][0x140];                                               // | 23 |  1  |     48    |
+        /*03a8*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 23 |  1  |     48    |
+        /*03b0*/                   FFMA R3, R23, c[0x0][0x178], R4;                                               // | 24 |  1  |     48    |
+        /*03b8*/                   IADD.X R5, R24, c[0x0][0x144];                                                 // | 24 |  1  |     48    |
+        /*03c8*/                   IADD R4.CC, R20, c[0x0][0x150];                                                // | 25 |  1  |     48    |
+        /*03d0*/                   MOV R20, c[0x0][0x178];                                                        // | 25 |  1  |     48    |
+        /*03d8*/                   FFMA R22, R2, c[0x0][0x158], R3;                                               // | 26 |  1  |     48    |
+        /*03e8*/                   MOV R2, R4;                                                                    // | 25 |  1  |     48    |
+        /*03f0*/                   MOV R4, R25;                                                                   // | 25 |  1  |     48    |
+        /*03f8*/                   IADD.X R3, R24, c[0x0][0x154];                                                 // | 25 |  1  |     48    |
+        /*0408*/                   FFMA R25, R20, 80, R22;                                                        // | 25 |  1  |     48    |
+        /*0410*/         {         FMUL R36, R8, c[0x0][0x17c];                                                   // | 25 |  1  |     50    |
+        /*0418*/                   STG.E [R6], R25;        }                                                      // | 21 |  1  |     50    |
+        /*0428*/                   MOV R26, c[0x0][0x148];                                                        // | 22 |  1  |     50    |
+        /*0430*/                   MOV R24, c[0x0][0x14c];                                                        // | 23 |  1  |     50    |
+        /*0438*/         {         FMUL R8, R23, c[0x0][0x180];                                                   // | 24 |  1  |     50    |
+        /*0448*/              @!P0 BRA `(.L_1);        }                                                          // | 24 |     |     50    |
+        /*0450*/                   XMAD R6, R9.reuse, c[0x0] [0xc], R10;                                          // | 25 |     |     50    |
+        /*0458*/                   XMAD.MRG R7, R9.reuse, c[0x0] [0xc].H1, RZ;                                    // | 25 |     |     50    |
+        /*0468*/                   XMAD.PSL.CBCC R10, R9.H1, R7.H1, R6;                                           // | 26 |     |     50    |
+        /*0470*/                   ISETP.EQ.AND P0, PT, R10, R21, PT;                                             // | 23 |  1  |     50    |
+        /*0478*/                   XMAD R22, R13.reuse, c[0x0] [0x8], R14;                                        // | 23 |  1  |     50    |
+        /*0488*/                   XMAD.MRG R27, R13, c[0x0] [0x8].H1, RZ;                                        // | 24 |  1  |     50    |
+        /*0490*/                   SEL R7, RZ, c[0x0][0x15c], P0;                                                 // | 25 |  1  |     50    |
+        /*0498*/                   XMAD.PSL.CBCC R25, R13.H1.reuse, R27.H1, R22;                                  // | 26 |     |     50    |
+        /*04a8*/                   IADD R6, R7, R14;                                                              // | 26 |     |     50    |
+        /*04b0*/                   XMAD R29, R19.reuse, c[0x0] [0x15c], R25;                                      // | 26 |     |     50    |
+        /*04b8*/                   XMAD R22, R13, c[0x0] [0x8], R6;                                               // | 27 |     |     50    |
+        /*04c8*/                   XMAD.MRG R6, R19, c[0x0] [0x15c].H1, RZ;                                       // | 27 |     |     50    |
+        /*04d0*/                   ISCADD R7, R11.reuse, R10, 0x1;                                                // | 28 |     |     50    |
+        /*04d8*/                   XMAD.PSL.CBCC R9, R13.H1, R27.H1, R22;                                         // | 29 |     |     50    |
+        /*04e8*/                   XMAD R21, R11.reuse, c[0x0] [0x15c], RZ;                                       // | 28 |     |     50    |
+        /*04f0*/                   XMAD.MRG R28, R11, c[0x0] [0x15c].H1, RZ;                                      // | 29 |     |     50    |
+        /*04f8*/                   XMAD.PSL.CBCC R29, R19.H1, R6.H1, R29;                                         // | 29 |     |     50    |
+        /*0508*/                   XMAD R22, R7, c[0x0] [0x15c], R25;                                             // | 30 |     |     50    |
+        /*0510*/                   ICMP.EQ R10, RZ, c[0x0][0x15c], R10;                                           // | 29 |     |     50    |
+        /*0518*/                   XMAD.MRG R25, R7, c[0x0] [0x15c].H1, RZ;                                       // | 30 |     |     50    |
+        /*0528*/                   XMAD R9, R19, c[0x0] [0x15c], R9;                                              // | 30 |     |     50    |
+        /*0530*/                   XMAD.PSL.CBCC R11, R11.H1, R28.H1, R21;                                        // | 30 |     |     50    |
+        /*0538*/                   IADD R21, R15, R29.reuse;                                                      // | 29 |     |     50    |
+        /*0548*/                   IADD R32, R16, R29;                                                            // | 30 |     |     50    |
+        /*0550*/                   IADD R10, R29, -R10;                                                           // | 30 |     |     50    |
+        /*0558*/                   XMAD.PSL.CBCC R7, R7.H1, R25.H1, R22;                                          // | 29 |     |     50    |
+        /*0568*/                   XMAD.PSL.CBCC R6, R19.H1, R6.H1, R9;                                           // | 27 |     |     50    |
+        /*0570*/                   MOV32I R22, 0x1;                                                               // | 27 |     |     50    |
+        /*0578*/                   SHL R28, R21.reuse, 0x2;                                                       // | 28 |     |     50    |
+        /*0588*/                   SHR R30, R21, 0x1e;                                                            // | 29 |     |     50    |
+        /*0590*/                   SHL R31, R32.reuse, 0x2;                                                       // | 29 |     |     50    |
+        /*0598*/                   SHR R33, R32, 0x1e;                                                            // | 30 |     |     50    |
+        /*05a8*/                   SHL R27, R11.reuse, 0x2;                                                       // | 30 |     |     50    |
+        /*05b0*/                   SHR R29, R11, 0x1e;                                                            // | 31 |     |     50    |
+        /*05b8*/                   SHL R32, R10.reuse, 0x2;                                                       // | 31 |     |     50    |
+        /*05c8*/                   SHR R34, R10, 0x1e;                                                            // | 32 |     |     50    |
+        /*05d0*/                   SHL R35, R7.reuse, 0x2;                                                        // | 32 |     |     50    |
+        /*05d8*/                   SHR R37, R7, 0x1e;                                                             // | 33 |     |     50    |
+        /*05e8*/                   SHL R21, R6.reuse, 0x2;                                                        // | 33 |     |     50    |
+        /*05f0*/                   SHR R25, R6, 0x1e;                                                             // | 34 |     |     50    |
+.L_2:                                                                                                             // | 33 |     |     53    |
+        /*05f8*/                   IADD R10.CC, R28, R26.reuse;                                                   // | 34 |     |     53    |
+        /*0608*/                   IADD.X R11, R30, R24.reuse;                                                    // | 35 |     |     53    |
+        /*0610*/                   LDG.E R9, [R10];                                                               // | 36 |     |     53    |
+        /*0618*/                   IADD R6.CC, R31, R26.reuse;                                                    // | 35 |     |     53    |
+        /*0628*/                   IADD.X R7, R33, R24;                                                           // | 36 |     |     53    |
+        /*0630*/                   LDG.E R6, [R6];                                                                // | 36 |     |     53    |
+        /*0638*/                   IADD R38.CC, R21, R26;                                                         // | 36 |     |     53    |
+        /*0648*/                   IADD.X R7, R25, R24.reuse;                                                     // | 37 |     |     53    |
+        /*0650*/                   IADD R10.CC, R32, R26;                                                         // | 38 |     |     53    |
+        /*0658*/                   IADD.X R11, R34, R24;                                                          // | 39 |     |     53    |
+        /*0668*/                   LDG.E R10, [R10];                                                              // | 39 |     |     53    |
+        /*0670*/                   FFMA R39, R9, c[0x0][0x16c], R8;                                               // | 39 |     |     53    |
+        /*0678*/                   MOV R8, R38;                                                                   // | 38 |     |     53    |
+        /*0688*/                   MOV R9, R7;                                                                    // | 38 |     |     53    |
+        /*0690*/                   LDG.E R8, [R8];                                                                // | 37 |     |     54    |
+        /*0698*/                   IADD R38.CC, R35, R26;                                                         // | 37 |     |     53    |
+        /*06a8*/                   FFMA R39, R6, c[0x0][0x168], R39;                                              // | 37 |     |     53    |
+        /*06b0*/         {         MOV R6, R38  SLOT 0;                                                           // | 37 |     |     53    |
+        /*06b8*/                   LDG.E R38, [R4]  SLOT 1;        }                                              // | 37 |     |     53    |
+        /*06c8*/                   IADD.X R7, R37, R24;                                                           // | 38 |     |     53    |
+        /*06d0*/                   LDG.E R6, [R6];                                                                // | 38 |     |     53    |
+        /*06d8*/                   IADD R4.CC, R4, R27;                                                           // | 37 |     |     53    |
+        /*06e8*/                   IADD32I R22, R22, 0x1;                                                         // | 37 |     |     53    |
+        /*06f0*/                   IADD.X R5, R5, R29;                                                            // | 37 |     |     53    |
+        /*06f8*/                   ISETP.LT.AND P0, PT, R22, R12, PT;                                             // | 37 |  1  |     53    |
+        /*0708*/         {         FFMA R39, R8, c[0x0][0x174], R39;                                              // | 37 |  1  |     53    |
+        /*0710*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 37 |  1  |     53    |
+        /*0718*/                   FFMA R39, R10, c[0x0][0x170], R39;                                             // | 37 |  1  |     53    |
+        /*0728*/                   FADD R9, R39, R36;                                                             // | 37 |  1  |     53    |
+        /*0730*/                   IADD R8.CC, R2, R27.reuse;                                                     // | 36 |  1  |     53    |
+        /*0738*/                   FFMA R11, R6, c[0x0][0x178], R9;                                               // | 37 |  1  |     53    |
+        /*0748*/                   IADD.X R9, R3, R29;                                                            // | 37 |  1  |     53    |
+        /*0750*/                   IADD R26.CC, R26, R27;                                                         // | 37 |  1  |     53    |
+        /*0758*/                   FFMA R7, R38, c[0x0][0x158], R11;                                              // | 38 |  1  |     53    |
+        /*0768*/                   FMUL R36, R23, c[0x0][0x17c];                                                  // | 36 |  1  |     53    |
+        /*0770*/                   IADD.X R24, R24, R29;                                                          // | 36 |  1  |     53    |
+        /*0778*/                   FFMA R7, R20, 80, R7;                                                          // | 36 |  1  |     52    |
+        /*0788*/                   STG.E [R2], R7;                                                                // | 36 |  1  |     52    |
+        /*0790*/                   MOV R23, R6;                                                                   // | 35 |  1  |     52    |
+        /*0798*/                   MOV R2, R8;                                                                    // | 35 |  1  |     51    |
+        /*07a8*/                   MOV R3, R9;                                                                    // | 35 |  1  |     51    |
+        /*07b0*/         {         FMUL R8, R6, c[0x0][0x180];                                                    // | 34 |  1  |     51    |
+        /*07b8*/               @P0 BRA `(.L_2);        }                                                          // | 33 |     |     51    |
+.L_1:                                                                                                             // | 20 |     |     53    |
+        /*07c8*/         {         XMAD R6, R13.reuse, c[0x0] [0x8], R14;                                         // | 21 |     |     53    |
+        /*07d0*/                   LDG.E R5, [R4];        }                                                       // | 20 |     |     52    |
+        /*07d8*/                   XMAD.MRG R7, R13.reuse, c[0x0] [0x8].H1, RZ;                                   // | 21 |     |     52    |
+        /*07e8*/                   XMAD.PSL.CBCC R9, R13.H1, R7.H1, R6;                                           // | 22 |     |     51    |
+        /*07f0*/                   IADD R6, R17, R14;                                                             // | 22 |     |     50    |
+        /*07f8*/                   XMAD.MRG R28, R19.reuse, c[0x0] [0x15c].H1, RZ;                                // | 21 |     |     50    |
+        /*0808*/                   XMAD R9, R19, c[0x0] [0x15c], R9;                                              // | 21 |     |     50    |
+        /*0810*/                   XMAD R6, R13.reuse, c[0x0] [0x8], R6;                                          // | 21 |     |     50    |
+        /*0818*/                   XMAD.PSL.CBCC R9, R19.H1.reuse, R28.H1, R9;                                    // | 21 |     |     50    |
+        /*0828*/                   XMAD.PSL.CBCC R6, R13.H1, R7.H1, R6;                                           // | 21 |     |     50    |
+        /*0830*/                   IADD R10, R15, R9.reuse;                                                       // | 20 |     |     50    |
+        /*0838*/                   XMAD R6, R19, c[0x0] [0x15c], R6;                                              // | 19 |     |     49    |
+        /*0848*/                   IADD R13, R16, R9;                                                             // | 20 |     |     49    |
+        /*0850*/                   SHL R7, R10.reuse, 0x2;                                                        // | 20 |     |     49    |
+        /*0858*/                   XMAD.PSL.CBCC R15, R19.H1, R28.H1, R6;                                         // | 21 |     |     49    |
+        /*0868*/                   SHR R10, R10, 0x1e;                                                            // | 18 |     |     49    |
+        /*0870*/                   SHL R11, R13.reuse, 0x2;                                                       // | 19 |     |     49    |
+        /*0878*/                   IADD R6.CC, R7, R26;                                                           // | 20 |     |     48    |
+        /*0888*/                   SHR R14, R13, 0x1e;                                                            // | 20 |     |     48    |
+        /*0890*/                   SHL R7, R15.reuse, 0x2;                                                        // | 20 |     |     48    |
+        /*0898*/                   IADD R18, -R18, R9;                                                            // | 20 |     |     48    |
+        /*08a8*/                   IADD.X R13, R10, R24;                                                          // | 20 |     |     48    |
+        /*08b0*/                   IADD R10.CC, R11, R26;                                                         // | 20 |     |     48    |
+        /*08b8*/                   SHR R9, R15, 0x1e;                                                             // | 20 |     |     48    |
+        /*08c8*/                   SHL R11, R18, 0x2;                                                             // | 20 |     |     48    |
+        /*08d0*/                   IADD.X R17, R14, R24.reuse;                                                    // | 21 |     |     48    |
+        /*08d8*/                   IADD R14.CC, R7, R26.reuse;                                                    // | 21 |     |     48    |
+        /*08e8*/                   MOV R7, R13;                                                                   // | 21 |     |     48    |
+        /*08f0*/                   LDG.E R6, [R6];                                                                // | 20 |     |     50    |
+        /*08f8*/                   IADD.X R15, R9, R24;                                                           // | 20 |     |     48    |
+        /*0908*/                   IADD R16.CC, R11, R26;                                                         // | 20 |     |     48    |
+        /*0910*/                   MOV R11, R17;                                                                  // | 19 |     |     48    |
+        /*0918*/         {         SHR R13, R18, 0x1e;                                                            // | 20 |     |     50    |
+        /*0928*/                   LDG.E R9, [R10];        }                                                      // | 17 |     |     50    |
+        /*0930*/         {         IADD.X R17, R13, R24  SLOT 0;                                                  // | 18 |     |     52    |
+        /*0938*/                   LDG.E R13, [R14]  SLOT 1;        }                                             // | 15 |     |     52    |
+        /*0948*/                   LDG.E R16, [R16];                                                              // | 15 |     |     54    |
+        /*0950*/         {         FFMA R6, R6, c[0x0][0x16c], R8;                                                // | 14 |     |     55    |
+        /*0958*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 13 |     |     55    |
+        /*0968*/                   FFMA R6, R9, c[0x0][0x168], R6;                                                // | 13 |     |     55    |
+        /*0970*/                   FFMA R6, R13, c[0x0][0x174], R6;                                               // | 12 |     |     55    |
+        /*0978*/                   FFMA R6, R16, c[0x0][0x170], R6;                                               // | 11 |     |     55    |
+        /*0988*/                   IADD32I R8, R0, 0x1;                                                           // | 11 |     |     55    |
+        /*0990*/                   FADD R6, R36, R6;                                                              // | 11 |     |     55    |
+        /*0998*/                   ISETP.LT.AND P0, PT, R8, 0x64, PT;                                             // | 10 |  1  |     55    |
+        /*09a8*/                   FFMA R0, R23, c[0x0][0x178], R6;                                               // | 10 |  1  |     55    |
+        /*09b0*/                   FFMA R6, R5, c[0x0][0x158], R0;                                                // |  9 |  1  |     55    |
+        /*09b8*/                   MOV R0, R8;                                                                    // |  8 |  1  |     55    |
+        /*09c8*/                   FFMA R7, R20, 80, R6;                                                          // |  8 |  1  |     55    |
+        /*09d0*/                   STG.E [R2], R7;                                                                // |  6 |  1  |     55    |
+        /*09d8*/               @P0 BRA `(.L_3);                                                                   // |  3 |  1  |     55    |
+        /*09e8*/                   EXIT;                                                                          // |  1 |     |           |
+.L_4:                                                                                                             // +....+.....+...........+
+        /*09f0*/                   BRA `(.L_4);                                                                   // |    |     |           |
+.L_45:                                                                                                            // +----+-----+-----------+
+                                                                                                                  // Legend:
+                                                                                                                  //     ^       : Register assignment
+                                                                                                                  //     v       : Register usage
+                                                                                                                  //     x       : Register usage and reassignment
+                                                                                                                  //     :       : Register in use
+                                                                                                                  //     <space> : Register not in use
+                                                                                                                  //     #       : Number of occupied registers
+
+	.headerflags	@"EF_CUDA_TEXMODE_UNIFIED EF_CUDA_64BIT_ADDRESS EF_CUDA_SW_1729687 EF_CUDA_SM60 EF_CUDA_PTX_SM(EF_CUDA_SM60)"
+
+
+//--------------------- .nv.info                  --------------------------
+	.section	.nv.info,"",@"SHT_CUDA_INFO"
+	.align	4
+
+
+	//----- nvinfo : EIATTR_MAX_STACK_SIZE
+	.align		4
+        /*0000*/ 	.byte	0x04, 0x23
+        /*0002*/ 	.short	(.L_6 - .L_5)
+	.align		4
+.L_5:
+        /*0004*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0008*/ 	.word	0x00000000
+
+
+	//----- nvinfo : EIATTR_MIN_STACK_SIZE
+	.align		4
+.L_6:
+        /*000c*/ 	.byte	0x04, 0x12
+        /*000e*/ 	.short	(.L_8 - .L_7)
+	.align		4
+.L_7:
+        /*0010*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0014*/ 	.word	0x00000000
+
+
+	//----- nvinfo : EIATTR_FRAME_SIZE
+	.align		4
+.L_8:
+        /*0018*/ 	.byte	0x04, 0x11
+        /*001a*/ 	.short	(.L_10 - .L_9)
+	.align		4
+.L_9:
+        /*001c*/ 	.word	index@(_Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0020*/ 	.word	0x00000000
+.L_10:
+
+
+//--------------------- .nv.info._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.nv.info._Z11hotspotOpt1PfS_S_fiiifffffff,"",@"SHT_CUDA_INFO"
+	.align	4
+
+
+	//----- nvinfo : EIATTR_PARAM_CBANK
+	.align		4
+        /*0000*/ 	.byte	0x04, 0x0a
+        /*0002*/ 	.short	(.L_12 - .L_11)
+	.align		4
+.L_11:
+        /*0004*/ 	.word	index@(.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff)
+        /*0008*/ 	.short	0x0140
+        /*000a*/ 	.short	0x0044
+
+
+	//----- nvinfo : EIATTR_CBANK_PARAM_SIZE
+	.align		4
+.L_12:
+        /*000c*/ 	.byte	0x03, 0x19
+        /*000e*/ 	.short	0x0044
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+        /*0010*/ 	.byte	0x04, 0x17
+        /*0012*/ 	.short	(.L_14 - .L_13)
+.L_13:
+        /*0014*/ 	.word	0x00000000
+        /*0018*/ 	.short	0x000d
+        /*001a*/ 	.short	0x0040
+        /*001c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_14:
+        /*0020*/ 	.byte	0x04, 0x17
+        /*0022*/ 	.short	(.L_16 - .L_15)
+.L_15:
+        /*0024*/ 	.word	0x00000000
+        /*0028*/ 	.short	0x000c
+        /*002a*/ 	.short	0x003c
+        /*002c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_16:
+        /*0030*/ 	.byte	0x04, 0x17
+        /*0032*/ 	.short	(.L_18 - .L_17)
+.L_17:
+        /*0034*/ 	.word	0x00000000
+        /*0038*/ 	.short	0x000b
+        /*003a*/ 	.short	0x0038
+        /*003c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_18:
+        /*0040*/ 	.byte	0x04, 0x17
+        /*0042*/ 	.short	(.L_20 - .L_19)
+.L_19:
+        /*0044*/ 	.word	0x00000000
+        /*0048*/ 	.short	0x000a
+        /*004a*/ 	.short	0x0034
+        /*004c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_20:
+        /*0050*/ 	.byte	0x04, 0x17
+        /*0052*/ 	.short	(.L_22 - .L_21)
+.L_21:
+        /*0054*/ 	.word	0x00000000
+        /*0058*/ 	.short	0x0009
+        /*005a*/ 	.short	0x0030
+        /*005c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_22:
+        /*0060*/ 	.byte	0x04, 0x17
+        /*0062*/ 	.short	(.L_24 - .L_23)
+.L_23:
+        /*0064*/ 	.word	0x00000000
+        /*0068*/ 	.short	0x0008
+        /*006a*/ 	.short	0x002c
+        /*006c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_24:
+        /*0070*/ 	.byte	0x04, 0x17
+        /*0072*/ 	.short	(.L_26 - .L_25)
+.L_25:
+        /*0074*/ 	.word	0x00000000
+        /*0078*/ 	.short	0x0007
+        /*007a*/ 	.short	0x0028
+        /*007c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_26:
+        /*0080*/ 	.byte	0x04, 0x17
+        /*0082*/ 	.short	(.L_28 - .L_27)
+.L_27:
+        /*0084*/ 	.word	0x00000000
+        /*0088*/ 	.short	0x0006
+        /*008a*/ 	.short	0x0024
+        /*008c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_28:
+        /*0090*/ 	.byte	0x04, 0x17
+        /*0092*/ 	.short	(.L_30 - .L_29)
+.L_29:
+        /*0094*/ 	.word	0x00000000
+        /*0098*/ 	.short	0x0005
+        /*009a*/ 	.short	0x0020
+        /*009c*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_30:
+        /*00a0*/ 	.byte	0x04, 0x17
+        /*00a2*/ 	.short	(.L_32 - .L_31)
+.L_31:
+        /*00a4*/ 	.word	0x00000000
+        /*00a8*/ 	.short	0x0004
+        /*00aa*/ 	.short	0x001c
+        /*00ac*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_32:
+        /*00b0*/ 	.byte	0x04, 0x17
+        /*00b2*/ 	.short	(.L_34 - .L_33)
+.L_33:
+        /*00b4*/ 	.word	0x00000000
+        /*00b8*/ 	.short	0x0003
+        /*00ba*/ 	.short	0x0018
+        /*00bc*/ 	.byte	0x00, 0xf0, 0x11, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_34:
+        /*00c0*/ 	.byte	0x04, 0x17
+        /*00c2*/ 	.short	(.L_36 - .L_35)
+.L_35:
+        /*00c4*/ 	.word	0x00000000
+        /*00c8*/ 	.short	0x0002
+        /*00ca*/ 	.short	0x0010
+        /*00cc*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_36:
+        /*00d0*/ 	.byte	0x04, 0x17
+        /*00d2*/ 	.short	(.L_38 - .L_37)
+.L_37:
+        /*00d4*/ 	.word	0x00000000
+        /*00d8*/ 	.short	0x0001
+        /*00da*/ 	.short	0x0008
+        /*00dc*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_KPARAM_INFO
+	.align		4
+.L_38:
+        /*00e0*/ 	.byte	0x04, 0x17
+        /*00e2*/ 	.short	(.L_40 - .L_39)
+.L_39:
+        /*00e4*/ 	.word	0x00000000
+        /*00e8*/ 	.short	0x0000
+        /*00ea*/ 	.short	0x0000
+        /*00ec*/ 	.byte	0x00, 0xf0, 0x21, 0x00
+
+
+	//----- nvinfo : EIATTR_MAXREG_COUNT
+	.align		4
+.L_40:
+        /*00f0*/ 	.byte	0x03, 0x1b
+        /*00f2*/ 	.short	0x00ff
+
+
+	//----- nvinfo : EIATTR_S2RCTAID_INSTR_OFFSETS
+	.align		4
+        /*00f4*/ 	.byte	0x04, 0x1d
+        /*00f6*/ 	.short	(.L_42 - .L_41)
+
+
+	//   ....[0]....
+.L_41:
+        /*00f8*/ 	.word	0x00000038
+
+
+	//   ....[1]....
+        /*00fc*/ 	.word	0x00000058
+
+
+	//----- nvinfo : EIATTR_EXIT_INSTR_OFFSETS
+	.align		4
+.L_42:
+        /*0100*/ 	.byte	0x04, 0x1c
+        /*0102*/ 	.short	(.L_44 - .L_43)
+
+
+	//   ....[0]....
+.L_43:
+        /*0104*/ 	.word	0x000009e8
+.L_44:
+
+
+//--------------------- .nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff,"a",@progbits
+	.align	4
+.nv.constant0._Z11hotspotOpt1PfS_S_fiiifffffff:
+	.zero		388
+
+
+//--------------------- .text._Z11hotspotOpt1PfS_S_fiiifffffff --------------------------
+	.section	.text._Z11hotspotOpt1PfS_S_fiiifffffff,"ax",@progbits
+	.sectioninfo	@"SHI_REGISTERS=40"
+	.align	32
+                                                                                                                  // +----+-----+-----------+
+                                                                                                                  // |GPR |PRED |SCOREBOARD |
+                                                                                                                  // |  # |  #  |      #    |
+                                                                                                                  // +----+-----+-----------+
+        .global         _Z11hotspotOpt1PfS_S_fiiifffffff                                                          // |    |     |           |
+        .type           _Z11hotspotOpt1PfS_S_fiiifffffff,@function                                                // |    |     |           |
+        .size           _Z11hotspotOpt1PfS_S_fiiifffffff,(.L_45 - _Z11hotspotOpt1PfS_S_fiiifffffff)               // |    |     |           |
+        .other          _Z11hotspotOpt1PfS_S_fiiifffffff,@"STO_CUDA_ENTRY STV_DEFAULT"                            // |    |     |           |
+_Z11hotspotOpt1PfS_S_fiiifffffff:                                                                                 // |    |     |           |
+.text._Z11hotspotOpt1PfS_S_fiiifffffff:                                                                           // |    |     |           |
+        /*0008*/                   MOV R1, c[0x0][0x20];                                                          // |  1 |     |      1    |
+        /*0010*/                   MOV R2, c[0x0][0x164];                                                         // |  2 |     |      1    |
+        /*0018*/                   MOV R0, RZ;                                                                    // |  3 |     |      2    |
+        /*0028*/                   IADD32I R12, R2, -0x1;                                                         // |  4 |     |      3    |
+.L_3:                                                                                                             // |  3 |     |     55    |
+        /*0030*/         {         MOV R11, c[0x0][0x160];                                                        // |  5 |     |     55    |
+        /*0038*/                   S2R R13, SR_CTAID.X;        }                                                  // |  5 |     |     54    |
+        /*0048*/         {         IADD32I R21, R11, -0x1;                                                        // |  7 |     |     54    |
+        /*0050*/                   S2R R14, SR_TID.X;        }                                                    // |  7 |     |     53    |
+        /*0058*/                   S2R R9, SR_CTAID.Y;                                                            // |  8 |     |     53    |
+        /*0068*/                   S2R R10, SR_TID.Y;                                                             // |  9 |     |     53    |
+        /*0070*/                   XMAD.MRG R4, R13.reuse, c[0x0] [0x8].H1, RZ;                                   // | 10 |     |     52    |
+        /*0078*/                   XMAD R3, R13, c[0x0] [0x8], R14;                                               // | 11 |     |     52    |
+        /*0088*/                   XMAD.MRG R7, R9, c[0x0] [0xc].H1, RZ;                                          // | 12 |     |     52    |
+        /*0090*/                   XMAD R2, R9.reuse, c[0x0] [0xc], R10;                                          // | 13 |     |     51    |
+        /*0098*/                   XMAD.PSL.CBCC R6, R13.H1, R4.H1, R3;                                           // | 14 |     |     51    |
+        /*00a8*/                   MOV R4, c[0x0][0x15c];                                                         // | 13 |     |     51    |
+        /*00b0*/                   XMAD.PSL.CBCC R3, R9.H1, R7.H1, R2;                                            // | 14 |     |     51    |
+        /*00b8*/                   IADD32I R4, R4, -0x1;                                                          // | 13 |     |     51    |
+        /*00c8*/                   XMAD R2, R3, c[0x0] [0x15c], R6;                                               // | 14 |     |     51    |
+        /*00d0*/                   XMAD.MRG R5, R3.reuse, c[0x0] [0x15c].H1, RZ;                                  // | 15 |     |     51    |
+        /*00d8*/                   ICMP.EQ R15, RZ, -0x1, R6;                                                     // | 16 |     |     50    |
+        /*00e8*/                   ISETP.NE.AND P0, PT, R6, R4, PT;                                               // | 16 |  1  |     49    |
+        /*00f0*/                   XMAD.PSL.CBCC R20, R3.H1.reuse, R5.H1, R2;                                     // | 16 |  1  |     49    |
+        /*00f8*/                   ISETP.EQ.AND P1, PT, R3, R21, PT;                                              // | 14 |  2  |     49    |
+        /*0108*/                   IADD R2, R20, R15;                                                             // | 15 |  2  |     49    |
+        /*0110*/                   SEL R16, RZ, 0x1, !P0;                                                         // | 16 |  2  |     49    |
+        /*0118*/                   SHL R4, R2.reuse, 0x2;                                                         // | 17 |  1  |     48    |
+        /*0128*/                   SHR R5, R2, 0x1e;                                                              // | 18 |  1  |     48    |
+        /*0130*/                   SHL R27, R20.reuse, 0x2;                                                       // | 18 |  1  |     48    |
+        /*0138*/                   IADD R8, R20, R16;                                                             // | 19 |  1  |     48    |
+        /*0148*/                   IADD R2.CC, R4, c[0x0][0x148];                                                 // | 20 |  1  |     48    |
+        /*0150*/                   SEL R17, RZ, c[0x0][0x15c], P1;                                                // | 20 |  1  |     48    |
+        /*0158*/                   ICMP.EQ R18, RZ, c[0x0][0x15c], R3;                                            // | 21 |     |     47    |
+        /*0168*/                   SHR R28, R20.reuse, 0x1e;                                                      // | 21 |     |     47    |
+        /*0170*/                   SHL R19, R8, 0x2;                                                              // | 22 |     |     47    |
+        /*0178*/                   IADD.X R3, R5, c[0x0][0x14c];                                                  // | 23 |     |     47    |
+        /*0188*/         {         IADD R4.CC, R27, c[0x0][0x148];                                                // | 24 |     |     47    |
+        /*0190*/                   LDG.E R29, [R2];        }                                                      // | 22 |     |     47    |
+        /*0198*/                   IADD R22, R20, R17;                                                            // | 23 |     |     47    |
+        /*01a8*/                   SHR R8, R8, 0x1e;                                                              // | 23 |     |     47    |
+        /*01b0*/                   IADD.X R5, R28, c[0x0][0x14c];                                                 // | 24 |     |     47    |
+        /*01b8*/                   IADD R24.CC, R19, c[0x0][0x148];                                               // | 25 |     |     47    |
+        /*01c8*/                   SHL R26, R22.reuse, 0x2;                                                       // | 25 |     |     47    |
+        /*01d0*/                   IADD R23, R20, -R18;                                                           // | 26 |     |     47    |
+        /*01d8*/                   SHR R19, R22, 0x1e;                                                            // | 27 |     |     47    |
+        /*01e8*/                   XMAD R20, R11.reuse, c[0x0] [0x15c], R20;                                      // | 26 |     |     47    |
+        /*01f0*/         {         IADD.X R25, R8, c[0x0][0x14c]  SLOT 0;                                         // | 27 |     |     48    |
+        /*01f8*/                   LDG.E R8, [R4]  SLOT 1;        }                                               // | 25 |     |     48    |
+        /*0208*/                   IADD R2.CC, R26, c[0x0][0x148];                                                // | 26 |     |     48    |
+        /*0210*/                   XMAD.MRG R26, R11, c[0x0] [0x15c].H1, RZ;                                      // | 26 |     |     48    |
+        /*0218*/                   SHL R22, R23, 0x2;                                                             // | 27 |     |     48    |
+        /*0228*/                   IADD.X R3, R19, c[0x0][0x14c];                                                 // | 28 |     |     48    |
+        /*0230*/         {         XMAD.PSL.CBCC R19, R11.H1, R26.H1, R20  SLOT 0;                                // | 28 |     |     48    |
+        /*0238*/                   LDG.E R20, [R24]  SLOT 1;        }                                             // | 25 |     |     48    |
+        /*0248*/         {         SHR R23, R23, 0x1e;                                                            // | 26 |     |     48    |
+        /*0250*/                   LDG.E R26, [R2];        }                                                      // | 24 |     |     48    |
+        /*0258*/                   IADD R22.CC, R22, c[0x0][0x148];                                               // | 24 |     |     48    |
+        /*0268*/                   SHL R4, R19.reuse, 0x2;                                                        // | 25 |     |     48    |
+        /*0270*/                   IADD.X R23, R23, c[0x0][0x14c];                                                // | 25 |     |     48    |
+        /*0278*/                   LDG.E R22, [R22];                                                              // | 25 |     |     49    |
+        /*0288*/                   SHR R5, R19, 0x1e;                                                             // | 25 |     |     48    |
+        /*0290*/                   IADD R4.CC, R4, c[0x0][0x148];                                                 // | 24 |     |     48    |
+        /*0298*/                   IADD.X R5, R5, c[0x0][0x14c];                                                  // | 24 |     |     48    |
+        /*02a8*/         {         IADD R2.CC, R27, c[0x0][0x140];                                                // | 26 |     |     48    |
+        /*02b0*/                   LDG.E R23, [R4];        }                                                      // | 24 |     |     48    |
+        /*02b8*/                   IADD.X R3, R28, c[0x0][0x144];                                                 // | 25 |     |     48    |
+        /*02c8*/                   LDG.E R2, [R2];                                                                // | 25 |     |     48    |
+        /*02d0*/                   IADD R24, R10, c[0x0][0x160];                                                  // | 25 |     |     48    |
+        /*02d8*/                   XMAD R24, R9, c[0x0] [0xc], R24;                                               // | 25 |     |     48    |
+        /*02e8*/                   ISETP.GT.AND P0, PT, R12, 0x1, PT;                                             // | 25 |  1  |     48    |
+        /*02f0*/                   FMUL R19, R29, c[0x0][0x16c];                                                  // | 26 |  1  |     48    |
+        /*02f8*/                   FFMA R25, R8, c[0x0][0x180], R19;                                              // | 26 |  1  |     48    |
+        /*0308*/         {         XMAD.PSL.CBCC R19, R9.H1, R7.H1, R24;                                          // | 26 |  1  |     48    |
+        /*0310*/                   DEPBAR.LE SB5, 0x3;        }                                                   // | 24 |  1  |     48    |
+        /*0318*/                   FFMA R7, R20, c[0x0][0x168], R25;                                              // | 25 |  1  |     48    |
+        /*0328*/                   XMAD R6, R19, c[0x0] [0x15c], R6;                                              // | 23 |  1  |     48    |
+        /*0330*/                   XMAD.MRG R20, R19.reuse, c[0x0] [0x15c].H1, RZ;                                // | 24 |  1  |     48    |
+        /*0338*/                   FFMA R4, R26, c[0x0][0x174], R7;                                               // | 25 |  1  |     48    |
+        /*0348*/                   XMAD.PSL.CBCC R5, R19.H1, R20.H1, R6;                                          // | 24 |  1  |     48    |
+        /*0350*/         {         IADD R6.CC, R27, c[0x0][0x150];                                                // | 23 |  1  |     48    |
+        /*0358*/                   DEPBAR.LE SB5, 0x2;        }                                                   // | 22 |  1  |     48    |
+        /*0368*/                   FFMA R3, R22, c[0x0][0x170], R4;                                               // | 23 |  1  |     48    |
+        /*0370*/                   SHL R20, R5, 0x2;                                                              // | 22 |  1  |     48    |
+        /*0378*/                   IADD.X R7, R28, c[0x0][0x154];                                                 // | 23 |  1  |     48    |
+        /*0388*/                   FFMA R4, R8, c[0x0][0x17c], R3;                                                // | 23 |  1  |     48    |
+        /*0390*/                   SHR R24, R5, 0x1e;                                                             // | 23 |  1  |     48    |
+        /*0398*/         {         IADD R25.CC, R20, c[0x0][0x140];                                               // | 23 |  1  |     48    |
+        /*03a8*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 23 |  1  |     48    |
+        /*03b0*/                   FFMA R3, R23, c[0x0][0x178], R4;                                               // | 24 |  1  |     48    |
+        /*03b8*/                   IADD.X R5, R24, c[0x0][0x144];                                                 // | 24 |  1  |     48    |
+        /*03c8*/                   IADD R4.CC, R20, c[0x0][0x150];                                                // | 25 |  1  |     48    |
+        /*03d0*/                   MOV R20, c[0x0][0x178];                                                        // | 25 |  1  |     48    |
+        /*03d8*/                   FFMA R22, R2, c[0x0][0x158], R3;                                               // | 26 |  1  |     48    |
+        /*03e8*/                   MOV R2, R4;                                                                    // | 25 |  1  |     48    |
+        /*03f0*/                   MOV R4, R25;                                                                   // | 25 |  1  |     48    |
+        /*03f8*/                   IADD.X R3, R24, c[0x0][0x154];                                                 // | 25 |  1  |     48    |
+        /*0408*/                   FFMA R25, R20, 80, R22;                                                        // | 25 |  1  |     48    |
+        /*0410*/         {         FMUL R36, R8, c[0x0][0x17c];                                                   // | 25 |  1  |     50    |
+        /*0418*/                   STG.E [R6], R25;        }                                                      // | 21 |  1  |     50    |
+        /*0428*/                   MOV R26, c[0x0][0x148];                                                        // | 22 |  1  |     50    |
+        /*0430*/                   MOV R24, c[0x0][0x14c];                                                        // | 23 |  1  |     50    |
+        /*0438*/         {         FMUL R8, R23, c[0x0][0x180];                                                   // | 24 |  1  |     50    |
+        /*0448*/              @!P0 BRA `(.L_1);        }                                                          // | 24 |     |     50    |
+        /*0450*/                   XMAD R6, R9.reuse, c[0x0] [0xc], R10;                                          // | 25 |     |     50    |
+        /*0458*/                   XMAD.MRG R7, R9.reuse, c[0x0] [0xc].H1, RZ;                                    // | 25 |     |     50    |
+        /*0468*/                   XMAD.PSL.CBCC R10, R9.H1, R7.H1, R6;                                           // | 26 |     |     50    |
+        /*0470*/                   ISETP.EQ.AND P0, PT, R10, R21, PT;                                             // | 23 |  1  |     50    |
+        /*0478*/                   XMAD R22, R13.reuse, c[0x0] [0x8], R14;                                        // | 23 |  1  |     50    |
+        /*0488*/                   XMAD.MRG R27, R13, c[0x0] [0x8].H1, RZ;                                        // | 24 |  1  |     50    |
+        /*0490*/                   SEL R7, RZ, c[0x0][0x15c], P0;                                                 // | 25 |  1  |     50    |
+        /*0498*/                   XMAD.PSL.CBCC R25, R13.H1.reuse, R27.H1, R22;                                  // | 26 |     |     50    |
+        /*04a8*/                   IADD R6, R7, R14;                                                              // | 26 |     |     50    |
+        /*04b0*/                   XMAD R29, R19.reuse, c[0x0] [0x15c], R25;                                      // | 26 |     |     50    |
+        /*04b8*/                   XMAD R22, R13, c[0x0] [0x8], R6;                                               // | 27 |     |     50    |
+        /*04c8*/                   XMAD.MRG R6, R19, c[0x0] [0x15c].H1, RZ;                                       // | 27 |     |     50    |
+        /*04d0*/                   ISCADD R7, R11.reuse, R10, 0x1;                                                // | 28 |     |     50    |
+        /*04d8*/                   XMAD.PSL.CBCC R9, R13.H1, R27.H1, R22;                                         // | 29 |     |     50    |
+        /*04e8*/                   XMAD R21, R11.reuse, c[0x0] [0x15c], RZ;                                       // | 28 |     |     50    |
+        /*04f0*/                   XMAD.MRG R28, R11, c[0x0] [0x15c].H1, RZ;                                      // | 29 |     |     50    |
+        /*04f8*/                   XMAD.PSL.CBCC R29, R19.H1, R6.H1, R29;                                         // | 29 |     |     50    |
+        /*0508*/                   XMAD R22, R7, c[0x0] [0x15c], R25;                                             // | 30 |     |     50    |
+        /*0510*/                   ICMP.EQ R10, RZ, c[0x0][0x15c], R10;                                           // | 29 |     |     50    |
+        /*0518*/                   XMAD.MRG R25, R7, c[0x0] [0x15c].H1, RZ;                                       // | 30 |     |     50    |
+        /*0528*/                   XMAD R9, R19, c[0x0] [0x15c], R9;                                              // | 30 |     |     50    |
+        /*0530*/                   XMAD.PSL.CBCC R11, R11.H1, R28.H1, R21;                                        // | 30 |     |     50    |
+        /*0538*/                   IADD R21, R15, R29.reuse;                                                      // | 29 |     |     50    |
+        /*0548*/                   IADD R32, R16, R29;                                                            // | 30 |     |     50    |
+        /*0550*/                   IADD R10, R29, -R10;                                                           // | 30 |     |     50    |
+        /*0558*/                   XMAD.PSL.CBCC R7, R7.H1, R25.H1, R22;                                          // | 29 |     |     50    |
+        /*0568*/                   XMAD.PSL.CBCC R6, R19.H1, R6.H1, R9;                                           // | 27 |     |     50    |
+        /*0570*/                   MOV32I R22, 0x1;                                                               // | 27 |     |     50    |
+        /*0578*/                   SHL R28, R21.reuse, 0x2;                                                       // | 28 |     |     50    |
+        /*0588*/                   SHR R30, R21, 0x1e;                                                            // | 29 |     |     50    |
+        /*0590*/                   SHL R31, R32.reuse, 0x2;                                                       // | 29 |     |     50    |
+        /*0598*/                   SHR R33, R32, 0x1e;                                                            // | 30 |     |     50    |
+        /*05a8*/                   SHL R27, R11.reuse, 0x2;                                                       // | 30 |     |     50    |
+        /*05b0*/                   SHR R29, R11, 0x1e;                                                            // | 31 |     |     50    |
+        /*05b8*/                   SHL R32, R10.reuse, 0x2;                                                       // | 31 |     |     50    |
+        /*05c8*/                   SHR R34, R10, 0x1e;                                                            // | 32 |     |     50    |
+        /*05d0*/                   SHL R35, R7.reuse, 0x2;                                                        // | 32 |     |     50    |
+        /*05d8*/                   SHR R37, R7, 0x1e;                                                             // | 33 |     |     50    |
+        /*05e8*/                   SHL R21, R6.reuse, 0x2;                                                        // | 33 |     |     50    |
+        /*05f0*/                   SHR R25, R6, 0x1e;                                                             // | 34 |     |     50    |
+.L_2:                                                                                                             // | 33 |     |     53    |
+        /*05f8*/                   IADD R10.CC, R28, R26.reuse;                                                   // | 34 |     |     53    |
+        /*0608*/                   IADD.X R11, R30, R24.reuse;                                                    // | 35 |     |     53    |
+        /*0610*/                   LDG.E R9, [R10];                                                               // | 36 |     |     53    |
+        /*0618*/                   IADD R6.CC, R31, R26.reuse;                                                    // | 35 |     |     53    |
+        /*0628*/                   IADD.X R7, R33, R24;                                                           // | 36 |     |     53    |
+        /*0630*/                   LDG.E R6, [R6];                                                                // | 36 |     |     53    |
+        /*0638*/                   IADD R38.CC, R21, R26;                                                         // | 36 |     |     53    |
+        /*0648*/                   IADD.X R7, R25, R24.reuse;                                                     // | 37 |     |     53    |
+        /*0650*/                   IADD R10.CC, R32, R26;                                                         // | 38 |     |     53    |
+        /*0658*/                   IADD.X R11, R34, R24;                                                          // | 39 |     |     53    |
+        /*0668*/                   LDG.E R10, [R10];                                                              // | 39 |     |     53    |
+        /*0670*/                   FFMA R39, R9, c[0x0][0x16c], R8;                                               // | 39 |     |     53    |
+        /*0678*/                   MOV R8, R38;                                                                   // | 38 |     |     53    |
+        /*0688*/                   MOV R9, R7;                                                                    // | 38 |     |     53    |
+        /*0690*/                   LDG.E R8, [R8];                                                                // | 37 |     |     54    |
+        /*0698*/                   IADD R38.CC, R35, R26;                                                         // | 37 |     |     53    |
+        /*06a8*/                   FFMA R39, R6, c[0x0][0x168], R39;                                              // | 37 |     |     53    |
+        /*06b0*/         {         MOV R6, R38  SLOT 0;                                                           // | 37 |     |     53    |
+        /*06b8*/                   LDG.E R38, [R4]  SLOT 1;        }                                              // | 37 |     |     53    |
+        /*06c8*/                   IADD.X R7, R37, R24;                                                           // | 38 |     |     53    |
+        /*06d0*/                   LDG.E R6, [R6];                                                                // | 38 |     |     53    |
+        /*06d8*/                   IADD R4.CC, R4, R27;                                                           // | 37 |     |     53    |
+        /*06e8*/                   IADD32I R22, R22, 0x1;                                                         // | 37 |     |     53    |
+        /*06f0*/                   IADD.X R5, R5, R29;                                                            // | 37 |     |     53    |
+        /*06f8*/                   ISETP.LT.AND P0, PT, R22, R12, PT;                                             // | 37 |  1  |     53    |
+        /*0708*/         {         FFMA R39, R8, c[0x0][0x174], R39;                                              // | 37 |  1  |     53    |
+        /*0710*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 37 |  1  |     53    |
+        /*0718*/                   FFMA R39, R10, c[0x0][0x170], R39;                                             // | 37 |  1  |     53    |
+        /*0728*/                   FADD R9, R39, R36;                                                             // | 37 |  1  |     53    |
+        /*0730*/                   IADD R8.CC, R2, R27.reuse;                                                     // | 36 |  1  |     53    |
+        /*0738*/                   FFMA R11, R6, c[0x0][0x178], R9;                                               // | 37 |  1  |     53    |
+        /*0748*/                   IADD.X R9, R3, R29;                                                            // | 37 |  1  |     53    |
+        /*0750*/                   IADD R26.CC, R26, R27;                                                         // | 37 |  1  |     53    |
+        /*0758*/                   FFMA R7, R38, c[0x0][0x158], R11;                                              // | 38 |  1  |     53    |
+        /*0768*/                   FMUL R36, R23, c[0x0][0x17c];                                                  // | 36 |  1  |     53    |
+        /*0770*/                   IADD.X R24, R24, R29;                                                          // | 36 |  1  |     53    |
+        /*0778*/                   FFMA R7, R20, 80, R7;                                                          // | 36 |  1  |     52    |
+        /*0788*/                   STG.E [R2], R7;                                                                // | 36 |  1  |     52    |
+        /*0790*/                   MOV R23, R6;                                                                   // | 35 |  1  |     52    |
+        /*0798*/                   MOV R2, R8;                                                                    // | 35 |  1  |     51    |
+        /*07a8*/                   MOV R3, R9;                                                                    // | 35 |  1  |     51    |
+        /*07b0*/         {         FMUL R8, R6, c[0x0][0x180];                                                    // | 34 |  1  |     51    |
+        /*07b8*/               @P0 BRA `(.L_2);        }                                                          // | 33 |     |     51    |
+.L_1:                                                                                                             // | 20 |     |     53    |
+        /*07c8*/         {         XMAD R6, R13.reuse, c[0x0] [0x8], R14;                                         // | 21 |     |     53    |
+        /*07d0*/                   LDG.E R5, [R4];        }                                                       // | 20 |     |     52    |
+        /*07d8*/                   XMAD.MRG R7, R13.reuse, c[0x0] [0x8].H1, RZ;                                   // | 21 |     |     52    |
+        /*07e8*/                   XMAD.PSL.CBCC R9, R13.H1, R7.H1, R6;                                           // | 22 |     |     51    |
+        /*07f0*/                   IADD R6, R17, R14;                                                             // | 22 |     |     50    |
+        /*07f8*/                   XMAD.MRG R28, R19.reuse, c[0x0] [0x15c].H1, RZ;                                // | 21 |     |     50    |
+        /*0808*/                   XMAD R9, R19, c[0x0] [0x15c], R9;                                              // | 21 |     |     50    |
+        /*0810*/                   XMAD R6, R13.reuse, c[0x0] [0x8], R6;                                          // | 21 |     |     50    |
+        /*0818*/                   XMAD.PSL.CBCC R9, R19.H1.reuse, R28.H1, R9;                                    // | 21 |     |     50    |
+        /*0828*/                   XMAD.PSL.CBCC R6, R13.H1, R7.H1, R6;                                           // | 21 |     |     50    |
+        /*0830*/                   IADD R10, R15, R9.reuse;                                                       // | 20 |     |     50    |
+        /*0838*/                   XMAD R6, R19, c[0x0] [0x15c], R6;                                              // | 19 |     |     49    |
+        /*0848*/                   IADD R13, R16, R9;                                                             // | 20 |     |     49    |
+        /*0850*/                   SHL R7, R10.reuse, 0x2;                                                        // | 20 |     |     49    |
+        /*0858*/                   XMAD.PSL.CBCC R15, R19.H1, R28.H1, R6;                                         // | 21 |     |     49    |
+        /*0868*/                   SHR R10, R10, 0x1e;                                                            // | 18 |     |     49    |
+        /*0870*/                   SHL R11, R13.reuse, 0x2;                                                       // | 19 |     |     49    |
+        /*0878*/                   IADD R6.CC, R7, R26;                                                           // | 20 |     |     48    |
+        /*0888*/                   SHR R14, R13, 0x1e;                                                            // | 20 |     |     48    |
+        /*0890*/                   SHL R7, R15.reuse, 0x2;                                                        // | 20 |     |     48    |
+        /*0898*/                   IADD R18, -R18, R9;                                                            // | 20 |     |     48    |
+        /*08a8*/                   IADD.X R13, R10, R24;                                                          // | 20 |     |     48    |
+        /*08b0*/                   IADD R10.CC, R11, R26;                                                         // | 20 |     |     48    |
+        /*08b8*/                   SHR R9, R15, 0x1e;                                                             // | 20 |     |     48    |
+        /*08c8*/                   SHL R11, R18, 0x2;                                                             // | 20 |     |     48    |
+        /*08d0*/                   IADD.X R17, R14, R24.reuse;                                                    // | 21 |     |     48    |
+        /*08d8*/                   IADD R14.CC, R7, R26.reuse;                                                    // | 21 |     |     48    |
+        /*08e8*/                   MOV R7, R13;                                                                   // | 21 |     |     48    |
+        /*08f0*/                   LDG.E R6, [R6];                                                                // | 20 |     |     50    |
+        /*08f8*/                   IADD.X R15, R9, R24;                                                           // | 20 |     |     48    |
+        /*0908*/                   IADD R16.CC, R11, R26;                                                         // | 20 |     |     48    |
+        /*0910*/                   MOV R11, R17;                                                                  // | 19 |     |     48    |
+        /*0918*/         {         SHR R13, R18, 0x1e;                                                            // | 20 |     |     50    |
+        /*0928*/                   LDG.E R9, [R10];        }                                                      // | 17 |     |     50    |
+        /*0930*/         {         IADD.X R17, R13, R24  SLOT 0;                                                  // | 18 |     |     52    |
+        /*0938*/                   LDG.E R13, [R14]  SLOT 1;        }                                             // | 15 |     |     52    |
+        /*0948*/                   LDG.E R16, [R16];                                                              // | 15 |     |     54    |
+        /*0950*/         {         FFMA R6, R6, c[0x0][0x16c], R8;                                                // | 14 |     |     55    |
+        /*0958*/                   DEPBAR.LE SB5, 0x1;        }                                                   // | 13 |     |     55    |
+        /*0968*/                   FFMA R6, R9, c[0x0][0x168], R6;                                                // | 13 |     |     55    |
+        /*0970*/                   FFMA R6, R13, c[0x0][0x174], R6;                                               // | 12 |     |     55    |
+        /*0978*/                   FFMA R6, R16, c[0x0][0x170], R6;                                               // | 11 |     |     55    |
+        /*0988*/                   IADD32I R8, R0, 0x1;                                                           // | 11 |     |     55    |
+        /*0990*/                   FADD R6, R36, R6;                                                              // | 11 |     |     55    |
+        /*0998*/                   ISETP.LT.AND P0, PT, R8, 0x64, PT;                                             // | 10 |  1  |     55    |
+        /*09a8*/                   FFMA R0, R23, c[0x0][0x178], R6;                                               // | 10 |  1  |     55    |
+        /*09b0*/                   FFMA R6, R5, c[0x0][0x158], R0;                                                // |  9 |  1  |     55    |
+        /*09b8*/                   MOV R0, R8;                                                                    // |  8 |  1  |     55    |
+        /*09c8*/                   FFMA R7, R20, 80, R6;                                                          // |  8 |  1  |     55    |
+        /*09d0*/                   STG.E [R2], R7;                                                                // |  6 |  1  |     55    |
+        /*09d8*/               @P0 BRA `(.L_3);                                                                   // |  3 |  1  |     55    |
+        /*09e8*/                   EXIT;                                                                          // |  1 |     |           |
+.L_4:                                                                                                             // +....+.....+...........+
+        /*09f0*/                   BRA `(.L_4);                                                                   // |    |     |           |
+.L_45:                                                                                                            // +----+-----+-----------+
+                                                                                                                  // Legend:
+                                                                                                                  //     ^       : Register assignment
+                                                                                                                  //     v       : Register usage
+                                                                                                                  //     x       : Register usage and reassignment
+                                                                                                                  //     :       : Register in use
+                                                                                                                  //     <space> : Register not in use
+                                                                                                                  //     #       : Number of occupied registers
+

@@ -1,0 +1,3 @@
+please use the makefile in each cuda/benchmark_name_half or cuda_benchmark_name_half2 to build, dont use the global makefile given by rodinia 
+
+Change makefile to support new gpus: -gencode flag to sm_70 volta and beyond

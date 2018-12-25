@@ -1,0 +1,7 @@
+kmeans will have segfault error if running on input gen using integer coordinates;
+only run with input generated with flag -f 
+
+cd ../../data/kmeans/inputGen
+./datagen 3000000 -f 
+
+../../data/kmeans/100_34f.txt is one example  

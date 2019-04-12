@@ -28,6 +28,19 @@ All contribution and pull requests are welcome.
 ### Publication 
 Ho, N. M., & Wong, W. F. (2017, September). Exploiting half precision arithmetic in Nvidia GPUs. In 2017 IEEE High Performance Extreme Computing Conference (HPEC) (pp. 1-7). IEEE.
 
+Bibtex: 
+
+```
+@inproceedings{ho2017exploiting,
+  title={Exploiting half precision arithmetic in Nvidia GPUs},
+  author={Ho, Nhut-Minh and Wong, Weng-Fai},
+  booktitle={2017 IEEE High Performance Extreme Computing Conference (HPEC)},
+  pages={1--7},
+  year={2017},
+  organization={IEEE}
+}
+```
+
 ### Todo
 Clang 7.0
 

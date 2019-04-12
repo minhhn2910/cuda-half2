@@ -25,6 +25,8 @@ All contribution and pull requests are welcome.
   * use *half* data type `simd_mode=false`
   * use operator overload header to make your code readible `operator_overload=true`
 - Next step is to run the conversion tool, to convert the sample in `test/vectorAdd.cu` use: `./run_rewrite.sh test/vectorAdd.cu`
+### Publication 
+Ho, N. M., & Wong, W. F. (2017, September). Exploiting half precision arithmetic in Nvidia GPUs. In 2017 IEEE High Performance Extreme Computing Conference (HPEC) (pp. 1-7). IEEE.
 
 ### Todo
 Clang 7.0

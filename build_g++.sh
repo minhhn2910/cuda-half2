@@ -2,5 +2,5 @@ g++ -w -fno-rtti -I$LLVM_CLANG_AST_INCLUDE -fvisibility-inlines-hidden -Wall -W 
  $1.cpp -Wl,--start-group  -lclangAST -lclangASTMatchers -lclangAnalysis -lclangBasic -lclangDriver -lclangEdit -lclangFrontend -lclangFrontendTool -lclangLex -lclangParse -lclangSema -lclangEdit -lclangRewrite -lclangRewriteFrontend -lclangStaticAnalyzerFrontend -lclangStaticAnalyzerCheckers -lclangStaticAnalyzerCore -lclangSerialization -lclangToolingCore -lclangTooling -lclangFormat -Wl,--end-group \
 -L$LLVM_CLANG_LIB \
 `$LLVM_CLANG_BIN/llvm-config --cxxflags --ldflags --libs all` \
--lrt -ldl -lpthread -lz -lm\
+-lrt -ldl -lpthread -lz -lm -ltinfo\
  -o $1

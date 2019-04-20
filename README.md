@@ -7,7 +7,7 @@ All contribution and pull requests are welcome.
 ### Requirements 
 - Clang 4.0, I have not tested it on other versions of Clang but I will make it compatible to newer versions if necessary.
 - G++ (g++ build is optional, you can build the tool with clang using the bash script files provided
-- The tutorial on how to install Clang and setup your system can be found here [https://clang.llvm.org/docs/LibASTMatchersTutorial.html]
+- The tutorial on how to install Clang and setup your system can be found here [https://releases.llvm.org/4.0.1/tools/clang/LibASTMatchersTutorial.html]
 - Linux & Unix OS for the bash scripts to run, otherwise you have to write your own Windows `.bat` scripts  to invoke clang plugins with appropriate flags.
 ### Building the binaries
 - Changing the environment variables to reflect clang path in your system in the file `env_path.conf`
@@ -18,7 +18,7 @@ All contribution and pull requests are welcome.
 
 ### Running the example
 - First step is to identify the floating point variables that can be converted to half precision: 
-`./detect_half2_vars test/vectorAdd.cu`
+`./detect_vars.sh test/vectorAdd.cu`
 - After completing this step, you should have `half2VarsList.txt` file generated with the content is the list of function and floating point variables in them. 
 - Choose your configuration from `rewrite.conf`:
   * use *half2* data type `simd_mode=true`

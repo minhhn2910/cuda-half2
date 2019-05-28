@@ -43,7 +43,8 @@ Bibtex:
 
 ### Todo
 Clang 7.0
-
+### Upcoming release 
+Block localized threads fusing on latest Clang. 
 
 
 
